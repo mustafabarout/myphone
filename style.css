@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+body{
+    font-family: 'tajawal', sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1366px;
+    height: 10vh;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+    max-width: 1366px;
+}
+nav .logo{
+    display: flex;
+    font-size: 2rem;
+    align-items: center;
+}
+nav .logo i{
+    color: #6e0ae6;
+    padding-right: 0.75rem;
+}
+nav .logo h4{
+    font-family: 'Lalezar', cursive;
+}
+nav .nav-items{
+    display: flex;
+    list-style-type: none;
+}
+nav .nav-items .nav-item{
+    padding: 0 1rem;
+    
+}
+nav .nav-link{
+    text-decoration: none;
+    color: #4e5474;
+    font-size: 1.4rem;
+}
+nav .nav-link:hover{
+    color:#6e0ae6;
+}
+
+.hero{
+    background-color: #f8f7fc;
+}
+.hero-section{
+    max-width: width 1366px;
+    height: 90vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5rem;
+    margin: 0 auto;
+    align-items: center;
+}
+.hero .hero-section .content{
+    display: flex;
+    flex-direction: column;
+}
+.hero-section h4{
+    color: #6e0ae6;
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+}
+.hero-section .content h1{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.hero-section p{
+    color: rgb(29,29,29);
+    font-size: 1.4rem;
+}
+.hero-section p span{
+    color: #6e0ae6;
+}
+.btn{
+width: 10rem;
+margin-top: 3rem;
+border-radius: 0.5rem;
+outline: none;
+border: none;
+padding: 0.75rem 1.5rem;
+background-color: #6e0ae6;
+}
+.btn a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.4rem;
+}
+.btn:hover{
+    background-color: #7d25f0;
+    cursor: pointer;
+}
+
+section.features {
+padding: 2rem 0;
+background-color: #f8f7fc;
+
+
+}
+section.featuers .featuers-section{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.featuers-section h4{
+color: #6e0ae6;
+font-size: 1.6rem;
+margin-bottom: 2rem;
+}
+.featuers-section .qualities{
+    display: flex;
+    justify-content: space-between;
+}
+.featuers-section .qualities .quality{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+    background-color: #f8f7fc;
+    max-width: 17rem;
+    border-radius: 1rem;
+    margin: 1rem;
+}
+.featuers-section .qualities .quality:hover{
+    border: 2px solid #6e0ae6;
+}
+.qualities .quality i{
+    font-size: 2rem;
+    color: #6e0ae6;
+    margin-bottom: 1rem;
+
+}
+.qualities .quality h3{
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+
+
+}
+.qualities .quality p{
+    font-size: 1.2rem;
+    color: #4e5474;
+    text-align: center;
+}
+.newest-phones{
+    padding-top: 5rem;
+}
+.newest-phones .phones-section{
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 0 5rem;
+    display: flex;
+    flex-direction: column;
+}
+.phones-section h4{
+    color: #6e0ae6;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+}
+.phones-section .phones{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: flex-start;
+}
+.phones .phone{
+    margin: 2rem 0;
+    max-width: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.phone img:hover{
+    height: 25rem;
+    cursor: pointer;
+}
+.phone img{
+    margin-bottom: 1rem;
+}
+.phone h3{
+    font-size: 1.6rem;
+}
+.phones-section button{
+    width: 15rem;
+    align-self: center;
+    margin-bottom: 1rem;
+}
+
+footer{
+    background-color: #f8f7fc;
+    height: 15vh;
+    margin-top: 5rem;
+    padding: 2rem 0;
+}
+.footer-section{
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 5rem;
+}
+.footer-section p{
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+.footer-section .socials{
+    margin-bottom: 1rem;
+}
+.footer-section .socials i{
+    padding: 0 0.5rem;
+    font-size: 1.6rem;
+}
+.footer-section .socials i:hover{
+    color: #6e0ae6;
+    cursor: pointer;
+}
